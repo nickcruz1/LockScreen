@@ -14,6 +14,63 @@
 </head>
 <body>
 
+<!-- LockScreen (Quick Pen) -->
+<div class="container-fluid">
+  
+  <!-- Lockscreen modal -->
+  
+  <div id="lockscreenModal" class="row">
+    
+    <h2 class="text-center text-primary fs-1 m-2">Lock Screen Modal</h2>
+    
+    <div class="d-flex justify-content-center mt-4">
+    <input class="passcode" type="text" inputmode="numeric" style="width: 20px;">
+      <input class="passcode" type="text" inputmode="numeric" style="width: 20px;">
+      <input class="passcode" type="text" inputmode="numeric" style="width: 20px;">
+      <input class="passcode" type="text" inputmode="numeric" style="width: 20px;">
+      <input class="passcode" type="text" inputmode="numeric" style="width: 20px;">
+      </div>
+    
+    
+    <button onclick="enterPasscode()" class="btn btn-primary d-block m-auto lockscreenModalBtn">Enter Passcode</button>
+   
+    
+  </div>
+  
+
+  
+  <!-- End of Lockscreen Modal -->
+
+  <div class="row">
+    <header>
+      <h2 class="text-primary fs-4 p-3"><i class="fa-solid fa-lock"></i> Lock Screen</h2>
+
+    </header>
+  </div>
+
+  <section>
+    <button onclick="lockscreen()" class="text-light btn btn-info border-dark p-2"><i class="fa-solid fa-lock"></i> Activate Lockscreen</button>
+  </section>
+
+  <footer class="row w-100">
+
+    <div class="col-4">
+      <a href="#"><i class="fa-solid fa-copyright"></i> 2023 Nick Cruz Tech LLC </a>
+
+    </div>
+
+    <div class="col-4">
+      <a href="#"><i class="fa-solid fa-gavel"></i> Terms & Conditions</a>
+    </div>
+
+    <div class="col-4">
+      <a href="#"><i class="fa-solid fa-download"></i> Download Instructions</a>
+    </div>
+
+  </footer>
+
+</div>
+
 
 // External JS File 
 <script src="index.js"></script>
